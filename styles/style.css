@@ -1,0 +1,188 @@
+@import url(./fonts.css);
+@import url(./colors.css);
+
+
+* {
+    font-size: 10px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+.header-container {
+    width: 375px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.header-container>img {
+    width: 89px;
+    height: 35px;
+}
+
+.header-container .button {
+    background: var(--navyBlue);
+}
+
+.header-container .button:hover {
+    background: var(--blue);
+}
+
+.button {
+    height: 48px;
+    width: 140px;
+    border-radius: 28px;
+    border: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 28px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+main {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+}
+
+main>div {
+    margin: auto;
+    max-width: 375px;
+    padding-top: 22px;
+}
+
+.title-container {
+    width: 100%;
+    justify-content: center;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+.title-container .button {
+    background: var(--orangeRose);
+}
+
+.title-container .button:hover {
+    background: var(--lightRose);
+}
+
+.title-container:nth-child(2) {
+    width: 327px;
+    height: 301px;
+}
+
+.title-container img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.title-container p {
+    width: 343px;
+    font-size: 1.6rem;
+    line-height: 26px;
+    color: var(--grey);
+    margin: 0;
+    padding-top: 26px;
+    padding-bottom: 24px;
+}
+
+.grid-container {
+    display: grid;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    gap: 40px;
+    padding: 0 16px 80px;
+}
+
+.grid-container .grid-item {
+    height: 259px;
+    width: 343px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    padding: 0px 29px 32px 28px;
+    box-sizing: border-box;
+}
+
+.grid-container .grid-item img {
+    position: relative;
+    top: -28px;
+}
+
+.grid-container>.grid-item:first-child {
+    height: 120px;
+    background: var(--orangeRose);
+    font-size: 2.4rem;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 24px 29px 32px 28px;
+    font-weight: 800;
+}
+
+.grid-container .grid-item h2 {
+    height: 25px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.0rem;
+    line-height: 25px;
+    color: var(--navyBlue);
+    margin: 0;
+}
+
+.grid-container .grid-item p {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 26px;
+    color: var(--grey);
+}
+
+.grid-container button {
+    color: var(--rose);
+    background-color: white;
+    width: 104px;
+    height: 28px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.grid-container button:hover {
+    color: var(--lightRose);
+}
+
+footer {
+    width: 100%;
+    background-color: var(--navyBlue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    width: 375px;
+    height: 120px;
+    background-color: var(--navyBlue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 36px 16px;
+}
+
+.footer-container .button {
+    background: var(--blueRose);
+}
+
+.footer-container .button:hover {
+    background: var(--blueRoseHover);
+}
