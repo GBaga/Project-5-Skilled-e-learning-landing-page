@@ -1,6 +1,6 @@
 @import url(./fonts.css);
 @import url(./colors.css);
-
+@import url(./responsive.css);
 
 * {
     font-size: 10px;
